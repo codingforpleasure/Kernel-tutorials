@@ -1,12 +1,12 @@
 /* 
  * Copyright (C) 2013 Gil Cohen http://codingforpleasure.blogspot.com
  *
- * Tutorial subject : Linked list in thee Kernel ( Lesson #2)
+ * Tutorial subject : Linked list in the Kernel ( Lesson #2)
  *
  * Tutorial purpose : For Getting familiar with the built-in API of the data-structure klist (linked-list)
  *
  * Sample usage: For demostarting issues after you have inserted the module into the kernel. 
- * 							 check in the dmesg, that the a list was indeed created via the invoked subroutine: birthdayList_init
+ *               check in the dmesg, that the a list was indeed created via the invoked subroutine: birthdayList_init
  *
  * 
  * For more thrilling and intresting subjects regarding linux, visit my blog.
