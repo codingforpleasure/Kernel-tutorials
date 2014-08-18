@@ -8,7 +8,7 @@ Basicly I would be talking and posting examples, which I wrote down for demonstr
 
 
 #### 1. Kernel Synchronizations methods
-- [x]     Atomic Operations - Given example
+- [x]     Atomic Operations
 - [ ]			Spinlock
 - [ ]			Reader-writer spinlock
 - [ ]     Mutex
