@@ -1,11 +1,11 @@
 I definitely like to explore and delve into intriguing subjects.
-I'll explain soon the module which I wrote.
+This tutorial demonstrates the usage of mutex and the contention on the lock speeking of many kernel threads which try to access  a shared resource.
 
 The mutex is a simple mechanisem for making sure who holds the lock gets access to the critical section,
 all other who try to acquire the lock are sent to the waiting list.
 The moment the lock is released by the owner the next thread in the waiting list is given the lock and now he becomes the owner.
 
-The Kernel implements it via spinlock and a list of waiters, the code below is from mutex.h:
+The kernel implements it via spinlock and a list of waiters, the code below is taken from mutex.h:
 ```
 struct mutex 
 {
