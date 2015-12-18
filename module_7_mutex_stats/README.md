@@ -6,7 +6,7 @@ all other who try to acquire the lock are sent to the waiting list.
 The moment the lock is released by the owner the next thread in the waiting list is given the lock and now he becomes the owner.
 
 The kernel implements it via spinlock and a list of waiters, the code below is taken from mutex.h:
-```
+```c
 struct mutex 
 {
 	atomic_t		count;
@@ -15,7 +15,7 @@ struct mutex
 	struct task_struct	*owner;
 };
 ```
-```
+```c
 struct mutex_waiter 
 {
 	struct list_head	list;
