@@ -7,7 +7,7 @@ The moment the lock is released by the owner the next thread in the waiting list
 
 The Kernel implements it via spinlock and a list of waiters, the code below is from mutex.h:
 
->struct mutex 
+<section>struct mutex 
 {
 	atomic_t		count;
 	spinlock_t		wait_lock;
@@ -20,4 +20,4 @@ The Kernel implements it via spinlock and a list of waiters, the code below is f
 {
 	struct list_head	list;
 	struct task_struct	*task;
-};
+};</section>
