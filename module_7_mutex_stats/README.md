@@ -15,10 +15,7 @@ struct mutex {
 	struct task_struct	*owner;
 };
 
-/*
- * This is the control structure for tasks blocked on mutex,
- * which resides on the blocked task's kernel stack:
- */
+
 struct mutex_waiter {
 	struct list_head	list;
 	struct task_struct	*task;
