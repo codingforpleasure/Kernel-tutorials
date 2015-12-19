@@ -1,4 +1,4 @@
-#### Welcome to my Kernel tutorials corner!
+![welcome_linux_kernel](https://cloud.githubusercontent.com/assets/1729719/11914105/4396d296-a67f-11e5-9ac2-0dcb255b56d4.png)
 
 A collection of tutorials which I wrote for all novice Linux enthuasiasts out there
 
