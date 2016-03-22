@@ -5,7 +5,7 @@ Script files:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;you. script was taken from the Linux kernel tree.
                   
                   Example: 
-                  ~/linux-4.3_src_tree$ ./scripts/checkpatch.pl  --file ./<your full path to the c file>
+                  ~/linux-4.3_src_tree$ ./scripts/checkpatch.pl  --file <your full path to the c file>
 
 * **run_current_module.sh** - 
   This simple script which I wrote: 
