@@ -24,7 +24,7 @@
                                                          read/write to device                       */
 #include <linux/cdev.h>      /* This is a char driver: makes cdev avaliable                         */
 #include <linux/semaphore.h> /* For synchronization                                                 */ 
-#include <asm/uaccess.h>     /* For using the functions: copy_to_user/copy_from_user                */
+#include <linux/uaccess.h>     /* For using the functions: copy_to_user/copy_from_user                */
 
 #define BUF_SIZE 100
 /* (1) Create a structure for our fake device */
